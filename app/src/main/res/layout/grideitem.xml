@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    android:paddingTop="@dimen/_8sdp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ >
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/zufälliger_spieler"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="444dp"
+
+       android:backgroundTint="@color/white"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+
+            android:text="SHOES"
+            android:textAlignment="center"
+            android:textColor="@color/pinkColor"
+            android:textSize="8sp" />
+
+        <TextView
+            android:id="@+id/tvSpecialOffer"
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:layout_marginTop="22dp"
+
+            android:text="Nike Air Max Shoes"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="8sp" />
+
+        <ImageView
+            android:id="@+id/gride_imageView"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/profile" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="12dp"
+        android:backgroundTint="@color/white"
+
+
+        app:cardCornerRadius="10dp"
+        app:cardElevation="3dp"
+        app:layout_constraintBottom_toBottomOf="@+id/zufälliger_spieler"
+        app:layout_constraintStart_toEndOf="@+id/zufälliger_spieler">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+
+            android:text="Handbag"
+            android:textAlignment="center"
+            android:textColor="@color/pinkColor"
+            android:textSize="8sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:layout_marginTop="22dp"
+            android:text="Luxury Fashion"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="8sp" />
+
+
+        <ImageView
+
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/bag"
+            />
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView1"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="129dp"
+
+        android:backgroundTint="@color/white"
+        app:cardElevation="3dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/zufälliger_spieler"
+        app:layout_constraintStart_toEndOf="@+id/zufälliger_spieler">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+
+            android:text="GLASSES"
+            android:textAlignment="center"
+            android:textColor="@color/pinkColor"
+            android:textSize="8sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+
+            android:text="Fashion Sunglasses"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="8sp" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/gorgle" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewFreundesübersicht"
+        android:layout_width="160dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:focusable="true"
+       android:backgroundTint="@color/white"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="7dp"
+        app:layout_constraintStart_toEndOf="@+id/cardView2"
+        app:layout_constraintTop_toBottomOf="@+id/cardView">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+
+            android:text="MEN'S"
+            android:textAlignment="center"
+            android:textColor="@color/pinkColor"
+            android:textSize="8sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+
+            android:text="Snowy Winter Forest
+Clothing "
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="8sp" />
+
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="18dp"
+            android:src="@drawable/men" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="160dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+
+        android:backgroundTint="@color/white"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="7dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/zufälliger_spieler">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+
+            android:text="WOMEN'S"
+            android:textAlignment="center"
+            android:textColor="@color/pinkColor"
+            android:textSize="8sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+
+            android:text="Snowy Winter Forest
+Clothing "
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="8sp" />
+
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="18dp"
+            android:src="@drawable/happywomen" />
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
